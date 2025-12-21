@@ -1,6 +1,6 @@
 from puzzleInput import puzzleInput, puzzleInput2
 
-ranges = [list(map(int, line.split('-'))) for line in puzzleInput2.splitlines() if '-' in line]
+ranges = [list(map(int, line.split('-'))) for line in puzzleInput.splitlines() if '-' in line]
 values = []
 ranges.sort()
 counter = 0
@@ -20,6 +20,3 @@ for value in values:
     counter += (value[1] - value[0]) +1
                
 print(counter)
-
-
-

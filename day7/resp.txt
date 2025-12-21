@@ -1,0 +1,19 @@
+
+index | line                  | count('1')
+------+-----------------------+-----------
+0     | .......S.......       | 
+1     | ...............       | 
+2     | .......^.......       | 
+3     | ......1.1......       | 2(UniquePaths) 2(UniquePositions) 2timelines
+4     | ......^.^......       | 
+5     | .....1.2.1.....       | 4(UniquePaths) 3(UniquePositions) 4timelines
+6     | .....^.^.^.....       | 
+7     | ....1.3.3.1....       | 6(UniquePaths) 4(UniquePositions) 8timelines
+8     | ...1^4^331^1...
+9     | ...1.4.331.1...       | 6(UniquePaths) 6(UniquePositions) 13 timelines
+10    | ..1^5^434^2^1..       |
+11    | ..1.5.434.2.1..       | 9(UniquePaths) 7(UniquePositions) 20 timelines
+12    | .1^154^74.21^1.       |
+13    | .1.154.74.21.1.       | 9(UniquePaths) 9(UniquePositions) 26 timelines
+14    |1^2^10^11^11^2-1-1^1       |
+15    | 1.2.3.2.2.111.1       | 14(UniquePaths) 9(UniquePositions) 40 timelines
